@@ -1,0 +1,13 @@
+---------------------------------------------------------------------
+       HOL-4 [Kananaskis 13 (stdknl, built Thu Jan 16 23:56:17 2020)]
+
+       For introductory HOL help, type: help "hol";
+       To exit type <Control>-D
+---------------------------------------------------------------------
+> timesPlus 100 27
+# ^CCompilation interrupted
+
+> fun timesPlus x y = (x*y, x+y);
+val timesPlus = fn: int -> int -> int * int
+> timesPlus 100 27;
+val it = (2700, 127): int * int
